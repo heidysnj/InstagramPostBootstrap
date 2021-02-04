@@ -1,0 +1,77 @@
+#nav-home-tab{
+    color: white;
+    background-color: darkgrey;
+}
+
+#nav-home-tab:not(.active){
+    color: darkgrey;
+    background-color: white;
+}
+
+#nav-profile-tab{
+    color: white;
+    background-color: darkgrey;
+}
+
+#nav-profile-tab:not(.active){
+    color: darkgrey;
+    background-color: white;
+}
+.nav-tabs {
+  border-bottom: 0px solid transparent;
+}
+.nav-tabs .nav-link {
+  border: 0px solid transparent;
+}
+
+
+.headerBox{
+ width: 150%;
+ height: 50px;
+}
+
+.titleHeaderBox{
+  font-size: 15px;
+  padding-left: 10px;
+  font-weight: bold;
+  width: 200px; 
+  float: left; 
+}
+
+.numHeaderBox{
+  font-size: 15px;
+  color: dimgray;
+  width: 200px; 
+  float: left;
+  margin-left: 40px;
+}
+
+
+.footBox{
+    font-size: 15px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+
+.bodyPage{
+     display: flex;
+     flex-direction: column;
+     background-color: whitesmoke;
+}
+
+.bodyPage > div {
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 15px;
+}
+
+img{
+ height: 175px; 
+ width: 300px; 
+}
+
+
